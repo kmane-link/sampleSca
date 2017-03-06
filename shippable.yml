@@ -24,8 +24,8 @@ matrix:
 #excludes this version 
   exclude:             
     - scala: 2.9.3
-      env:
-        - env=test1 
+     # env:
+       # - env=test1 
 
       
 
