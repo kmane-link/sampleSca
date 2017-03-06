@@ -5,13 +5,21 @@ scala:
     - 2.9.3
     - 2.10.5
     
-jdk:
-  - openjdk7
-  - oraclejdk7
-  - oraclejdk8
-    
+env:
+  global:
+    - BOO=Bar
+    - BOO2: newBar
+      BOO3: thirdBar
+    - distribution=centos tag=6.8
+    - distribution: ubuntu 
+      tag: 14.04
 build:
 
   ci:
     - java -version
     - echo $SHIPPABLE_SCALA_VERSION
+    - echo $BOO
+    - echo $BOO2
+    - echo $BOO3
+    - echo $distribution
+    - echo $tag
