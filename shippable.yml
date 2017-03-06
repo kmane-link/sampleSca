@@ -13,6 +13,24 @@ env:
     - distribution=centos tag=6.8
     - distribution: ubuntu 
       tag: 14.04
+matrix:
+#include this version with the env 
+  include:               
+    - jdk: 2.11.0
+      env: 
+        - foo: fubu
+          fee: fasa
+         
+#excludes this version 
+  exclude:             
+    - jdk: oraclejdk8
+      env:
+        - env=test1 
+#allows failure for this version
+  allow_failures:
+    - jdk: oraclejdk7 
+      
+
 build:
 
   ci:
@@ -23,3 +41,5 @@ build:
     - echo $BOO3
     - echo $distribution
     - echo $tag
+    - echo $foo
+    - echo $fee
