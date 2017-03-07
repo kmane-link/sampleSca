@@ -19,7 +19,7 @@ matrix:
     - scala: 2.11.0
       env: 
         - foo: fubu
-          fee: fasa
+          fee=fasa
           secure: KqwNOBE/is3SNhjOxLScIgMZzU4CArMNJ1FhYLTD6vyfzaFdM4C58nsAfrlf1e5ShqTJ3m+oja0n5HpLp7+Zoj+OgzVuDsGC0+sn54i2YXWZQB2g+QvNhbsyEI83Q6OJobNUkksGv+SXFjO3OlFrb2BDu8tjqKUeBTmaaac1YWanBdTK436mBgXFjLiiU4+YCbD9znxImL43B0wZ41BFPc3KsHKenuN8Ns7ztoGkoY0dJ0EFQQEoTOeTn0DBjTFEAN/HS2kHQeZxloFvMOf1vaKaY7+r11wgK6REA9oqYaojn4PwaZzu4C0sWxtXFTmmS1nwSkdeq8qnDdLyWrhwwg==
 #excludes this version 
   exclude:             
