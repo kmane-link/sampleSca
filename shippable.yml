@@ -28,7 +28,7 @@ matrix:
   exclude:             
     - scala: 2.9.3
       env:
-        - M2: three
+        - M2: two
 
       
 
