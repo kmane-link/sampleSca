@@ -28,7 +28,7 @@ matrix:
   exclude:             
     - scala: 2.9.3
       env:
-        - M2: two
+        - M2: three
 
       
 
@@ -46,3 +46,4 @@ build:
     - echo $fee
     - echo $encrypt
     - echo $M1
+    - echo $M3
