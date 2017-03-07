@@ -15,7 +15,7 @@ env:
       tag: 14.04
   matrix:
     - M1=one
-      M2: two
+    - M2: two
 matrix:
 #include this version with the env 
   include:               
