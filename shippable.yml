@@ -18,6 +18,7 @@ env:
     - M2: two
 matrix:
 #include this version with the env 
+  include:
     - scala: 2.11.0
       env: 
         - foo: fubu
