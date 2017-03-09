@@ -17,6 +17,8 @@ env:
     - M1=one
     - M2: two
     - custom: test
+    - new: env
+      new1: format
 matrix:
 #include this version with the env 
   include:
@@ -30,6 +32,7 @@ matrix:
     - scala: 2.9.3
       env:
         - M2: two
+        - custom: test
 
       
 
@@ -49,3 +52,5 @@ build:
     - echo $M1
     - echo $M3
     - echo $custom
+    - echo $new
+    - echo $new1
