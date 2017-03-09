@@ -30,9 +30,9 @@ matrix:
 #excludes this version 
   exclude:             
     - scala: 2.9.3
-      env:
-        - M2: two
-        - custom: test
+     # env:
+       # - M2: two
+       # - custom: test
 
       
 
