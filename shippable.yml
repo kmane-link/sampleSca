@@ -16,6 +16,7 @@ env:
   matrix:
     - M1=one
     - M2: two
+    - custom: test
 matrix:
 #include this version with the env 
   include:
@@ -47,3 +48,4 @@ build:
     - echo $encrypt
     - echo $M1
     - echo $M3
+    - echo $custom
