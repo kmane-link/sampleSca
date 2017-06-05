@@ -2,8 +2,8 @@ language: scala
 
 scala:
     - 2.11.0
-    - 2.9.3
-    - 2.10.5
+   # - 2.9.3
+   # - 2.10.5
     
 env:
   global:
@@ -19,17 +19,17 @@ env:
     - custom: test
     - new: env
       new1: format
-matrix:
+#matrix:
 #include this version with the env 
-  include:
-    - scala: 2.11.0
-      env: 
-        - foo: fubu
-        - fee=fasa
-        - secure: KqwNOBE/is3SNhjOxLScIgMZzU4CArMNJ1FhYLTD6vyfzaFdM4C58nsAfrlf1e5ShqTJ3m+oja0n5HpLp7+Zoj+OgzVuDsGC0+sn54i2YXWZQB2g+QvNhbsyEI83Q6OJobNUkksGv+SXFjO3OlFrb2BDu8tjqKUeBTmaaac1YWanBdTK436mBgXFjLiiU4+YCbD9znxImL43B0wZ41BFPc3KsHKenuN8Ns7ztoGkoY0dJ0EFQQEoTOeTn0DBjTFEAN/HS2kHQeZxloFvMOf1vaKaY7+r11wgK6REA9oqYaojn4PwaZzu4C0sWxtXFTmmS1nwSkdeq8qnDdLyWrhwwg==
+ # include:
+   # - scala: 2.11.0
+      #env: 
+      #  - foo: fubu
+       # - fee=fasa
+        #3- secure: KqwNOBE/is3SNhjOxLScIgMZzU4CArMNJ1FhYLTD6vyfzaFdM4C58nsAfrlf1e5ShqTJ3m+oja0n5HpLp7+Zoj+OgzVuDsGC0+sn54i2YXWZQB2g+QvNhbsyEI83Q6OJobNUkksGv+SXFjO3OlFrb2BDu8tjqKUeBTmaaac1YWanBdTK436mBgXFjLiiU4+YCbD9znxImL43B0wZ41BFPc3KsHKenuN8Ns7ztoGkoY0dJ0EFQQEoTOeTn0DBjTFEAN/HS2kHQeZxloFvMOf1vaKaY7+r11wgK6REA9oqYaojn4PwaZzu4C0sWxtXFTmmS1nwSkdeq8qnDdLyWrhwwg==
 #excludes this version 
-  exclude:             
-    - scala: 2.9.3
+ # exclude:             
+   # - scala: 2.9.3
      # env:
        # - M2: two
        # - custom: test
