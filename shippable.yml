@@ -16,6 +16,8 @@ env:
   matrix:
     - M1=one
     - M2: two
+    - M3=three
+    - M4=four
    # - custom: test
     #- new: env
      # new1: format
