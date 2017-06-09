@@ -54,10 +54,10 @@ build:
     - echo $custom
     - echo $new
     - echo $new1
-integrations:
-  hub:
-    - integrationName: ship-docker
-      type: docker
+#integrations:
+#  hub:
+  #  - integrationName: ship-docker
+  #    type: docker
       
       
       
