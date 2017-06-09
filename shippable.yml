@@ -16,9 +16,9 @@ env:
   matrix:
     - M1=one
     - M2: two
-    - custom: test
-    - new: env
-      new1: format
+   # - custom: test
+    #- new: env
+     # new1: format
 #matrix:
 #include this version with the env 
  # include:
